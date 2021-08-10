@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {
+                text-align:center;
+                 font-family: Calibri, Helvetica, sans-serif;  
+                 background-color: greenyellow;
+            }
+            
+            form {   
+               border: 2px solid skyblue; 
+                 border-width: medium; 
+              }   
+           .container 
+            {   
+                 padding: 25px; 
+                 margin:  25px;
+                 background-color: lightblue;  
+            }  
+             .reset 
+            {   
+                  width: auto;   
+                  padding: 8px 15px;  
+                  margin: 8px 5px;  
+            } 
+            button
+               {   
+                  background-color: buttonface;   
+                  width: 7%;  
+                  color: grey;   
+                  padding:8px 15px;   
+                  margin: 8px 5px;   
+                  border: none;   
+                  cursor: pointer;   
+               } 
+               
+                input[type=text], input[type=password] {   
+                   width: 18%;   
+                   margin: 12px 3px;  
+                   padding: 2px 15px;   
+                   display: inline-block;   
+                   border: 2px solid green;   
+                   box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    } 
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+            <div class="container">
+                <label>User Name</label>
+                <input type="text" name="t1" placeholder="User name" required><br>
+                
+                <label>Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required><br>  
+                <button type="submit">Login</button>
+                 <button type="reset" class="reset"> Reset</button> <br>
+                <input type="checkbox" checked="checked"> Remember me   
+                 
+                Forgot <a href="#"> password? </a> 
+                
+            </div>
+        </form>
+    </body>
+</html>
